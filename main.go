@@ -7,8 +7,14 @@ func sum(a, b int) int {
 
 }
 
+func sum2(a, b int) int {
+	return a + b
+
+}
+
 func main() {
 	fmt.Println("Hello github")
 	fmt.Println(sum(1, 2))
+	fmt.Println(sum2(1, 2))
 
 }
